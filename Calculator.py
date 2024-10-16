@@ -11,4 +11,3 @@ snum = c2.number_input('enter second number', value= 0)
 
 options= ['Add','subtract','multiply','divide']
 choice = st.radio('select operation', options)
-
