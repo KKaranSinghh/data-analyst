@@ -1,10 +1,8 @@
 import streamlit as st
+import pandas as pd
 import seaborn as sns
+import plotly.express as ps
+import plotly.graph_objects as go
 
-
-# Load dataset
-df= sns.load_dataset('titanic')
-
-# Display dataset
-st.dataframe(df)
-
+st.markdown("<h1 style='color:yellow; font-weight:bolder; background-color:maroon; border: 2px dashed white; text-align: center'>Titanic Data Analysis</h1>", unsafe_allow_html= True)
+st.image("data analyst.png", use_column_width=True)
